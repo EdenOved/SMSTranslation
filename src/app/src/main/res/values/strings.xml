@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">SMSTranslation</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iconDes">Logo of</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync messages periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notification_header">Notifications</string>
+    <string name="notifications_title">Enable notifications</string>
+    <string name="notification_mode_title">Notification mode</string>
+
+    <string name="language_header">Language</string>
+    <string name="language_title">Select language</string>
+
+    <string name="translation_header">Translation</string>
+    <string name="background_translation_title">Enable background translation</string>
+
+    <!-- Existing arrays -->
+
+    <string-array name="notification_mode_entries">
+        <item>Sound</item>
+        <item>Vibrate</item>
+        <item>Mute</item>
+    </string-array>
+
+    <string-array name="notification_mode_values">
+        <item>sound</item>
+        <item>vibrate</item>
+        <item>mute</item>
+    </string-array>
+
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Hebrew</item>
+        <!-- Add more languages here -->
+    </string-array>
+
+    <string-array name="language_values">
+        <item>english</item>
+        <item>hebrew</item>
+        <!-- Add more languages here -->
+    </string-array>
+
+    <string name="about_title_text">"SMS Translation"</string>
+    <string name="about_description">
+        "Developed by:\n"
+        "\tNiv Kelman - 318163292\n"
+        "\tEden Ovad -206120727\n"
+        "\tAvi Ergas - 208783209\n\n"
+        "This android application translates all or selected SMS from inbox in demand or automatically. User can choose to translate all or select messages to translate into desired language. The application usages google translator (API) to translate messages. As of now the application only works with internet (WIFI/Mobile data). In future ML model can be introduced for offline translation.\n\n"
+        "Activities: \n"
+            "SplashScreenActivity: The first screen users see when they open the app.\n"
+            "InboxActivity: The screen where users can view all received SMS messages.\n"
+            "SMSViewActivity: The screen where users can view the full content of a selected SMS message.\n"
+            "SettingsActivity: The screen where users can customize the app's settings.\n"
+            "AboutActivity: The screen where users can view information about the app and its developers.\n"
+            "NewMessageActivity: The screen where users can compose and send new SMS messages.\n"
+            "SearchActivity: The screen where users can search their SMS messages for specific words or phrases.\n\n"
+            "Service:\n"
+            "In this project, we will use a Service to handle the translation of SMS messages in the background. When a new SMS is received, the Service will be started to translate the message. This allows the translation process to continue even if the user is not interacting with the application, ensuring that the translated message is ready as soon as the user wants to read it.\n\n"
+            "BroadcastReceiver: We will use a BroadcastReceiver to listen for the system-wide broadcast that is sent when a new SMS message is received. When this broadcast is detected, the BroadcastReceiver will start the Service to translate the new message. This ensures that the translation process begins as soon as a new SMS message is received, even if the application is not currently open on the user's device. \n\n"
+            "The application usages WiFi or Mobile Data (Phone connectivity)\n\n"
+            "The application saves translated messages in local storage for faster retrieval(cache).\n\n"
+            "This Application uses Foreground Notifications in this project\n\n"
+            "Foreground notifications are used to notify the user of an ongoing event or require user interaction. They cannot be dismissed unless the ongoing task has completed or the user has interacted with the notification. \n\n"
+            "The Application uses AsyncTask to Translate incoming messages in the background without blocking the UI.\n\n"
+    </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="backgroud_translation_summary_off">Only translate when in the app.</string>
+    <string name="background_translation_summary_off">Only translate when in the app.</string>
+    <string name="background_translation_summary_on">Traslate periodically in the background.</string>
+    <string name="notification_off">When turned on notification will be shown.</string>
+</resources>
