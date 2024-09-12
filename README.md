@@ -67,7 +67,7 @@ For a demo of the application, please refer to the attached video file: **Demo.m
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/SMS-Translation-App.git
+   git clone https://github.com/yourusername/SMSTranslation-App.git
    ```
 
 2. **Open in Android Studio**: Import the project into Android Studio.
