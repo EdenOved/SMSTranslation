@@ -88,5 +88,5 @@ Feel free to fork this repository, submit pull requests, or open issues if you e
 
 - **Name**: Eden Oved
 - **Email**: edenoved.swe@gmail.com
-- **LinkedIn**: [https://www.linkedin.com/in/edenovad/](https://www.linkedin.com/in/edenoved/)
+- **LinkedIn**: [https://www.linkedin.com/in/edenoved/](https://www.linkedin.com/in/edenoved/)
 
