@@ -1,4 +1,3 @@
-
 # **SMS Translation Android Application**
 
 This project is an **Android application** designed to translate SMS messages either on-demand or automatically. It allows users to translate messages into their preferred language, making communication more accessible, especially while traveling or receiving messages in foreign languages. It also includes **offline translation** capabilities powered by machine learning models, ensuring users can translate messages without an internet connection.
