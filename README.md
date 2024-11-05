@@ -90,5 +90,3 @@ We welcome contributions! Feel free to fork this repository, submit pull request
 - **LinkedIn**: [https://www.linkedin.com/in/edenoved/](https://www.linkedin.com/in/edenoved/)
 
 ---
-
-You can now copy this whole section directly into your GitHub repository's README edit page for a complete and well-formatted project description.
