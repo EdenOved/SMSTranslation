@@ -1,4 +1,3 @@
----
 
 # **SMS Translation Android Application**
 
